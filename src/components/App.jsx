@@ -79,7 +79,7 @@ const App = () => {
   );
 
   const NoTask = Object.keys(tasks).length ? <></> : (
-    <div className="flex flex-col items-center py-40 text-neutral">
+    <div className="flex flex-col items-center py-40">
       <span className="text-8xl md:text-9xl">
         <FcCheckmark />
       </span>
